@@ -23,8 +23,8 @@ app.use(express.json());
 
 // Routes
 // =============================================================
-require('./routes/author-api-routes.js')(app);
-require('./routes/article-api-routes.js')(app);
+require('./routes/api-routes.js')(app);
+require('./routes/html-routes.js')(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================

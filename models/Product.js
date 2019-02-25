@@ -1,10 +1,10 @@
 module.exports = function(connection, Sequelize) {
   const Product = connection.define('Product', {
-    product_name: Sequelize.STRING,
-    department_name: Sequelize.STRING,
-    price: Sequelize.INT,
-    stock_quantity: Sequelize.INT
+    product_name: { type: Sequelize.STRING },
+    department_name: { type: Sequelize.STRING },
+    price: { type: Sequelize.STRING },
+    stock_quantity: { type: Sequelize.STRING }
   });
 
-  return Product;
+  return Product
 };
