@@ -1,2 +1,7 @@
 # Bamazon
 
+## What it is
+This app is an amazon-like storefront that allows users to purchase from the available stock from a number of given items
+
+## Knowledge used to build This
+I utilitzed my knowledge of node.js, express and more to complete this project
